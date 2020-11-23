@@ -22,7 +22,6 @@ class Program(QMainWindow):
             self.qp = QPainter()
             self.qp.begin(self)
             self.qp.setPen(QColor(255, 255, 0))
-            self.qp.setBrush(QColor(255, 255, 0))
             self.draw()
             self.qp.end()
 
